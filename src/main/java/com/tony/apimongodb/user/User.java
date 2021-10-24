@@ -18,7 +18,7 @@ import java.util.List;
 
 @Setter
 @Getter
-@Builder
+@Builder(builderClassName = "Builder")
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
 @AllArgsConstructor
 @NoArgsConstructor
